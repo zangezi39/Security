@@ -1,0 +1,1540 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Seva\\security101\\contracts\\overflow\\SimpleToken.sol": {
+      "lastModificationDate": 1656790859954,
+      "contentHash": "f4564b8738412d542a6e2e935a0887b9",
+      "sourceName": "contracts/overflow/SimpleToken.sol",
+      "solcConfig": {
+        "version": "0.6.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-legacy/access/Ownable.sol",
+        "@openzeppelin/contracts-legacy/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SimpleToken"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@openzeppelin\\contracts-legacy\\access\\Ownable.sol": {
+      "lastModificationDate": 1654197443188,
+      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
+      "sourceName": "@openzeppelin/contracts-legacy/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@openzeppelin\\contracts-legacy\\math\\SafeMath.sol": {
+      "lastModificationDate": 1654197444055,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts-legacy/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@openzeppelin\\contracts-legacy\\utils\\Context.sol": {
+      "lastModificationDate": 1654197427351,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts-legacy/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.6.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\access-control\\AgreedPrice.sol": {
+      "lastModificationDate": 1654194010345,
+      "contentHash": "ac978a9253771eabb5c0e68dd9cf077e",
+      "sourceName": "contracts/access-control/AgreedPrice.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "AgreedPrice"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1654197444541,
+      "contentHash": "4fe56b59ced59d87df6b796758f62895",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1654197440914,
+      "contentHash": "851485d5b925529b1a2f34a0be077891",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\weak-randomness\\LotteryV2.sol": {
+      "lastModificationDate": 1655734143265,
+      "contentHash": "0658088f15762c7869d39ffe7f1303d3",
+      "sourceName": "contracts/weak-randomness/LotteryV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
+        "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "LotteryV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@chainlink\\contracts\\src\\v0.8\\VRFConsumerBase.sol": {
+      "lastModificationDate": 1654197451669,
+      "contentHash": "b2cd4396ec9f9d0b2dd385cc26d54298",
+      "sourceName": "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/LinkTokenInterface.sol",
+        "./VRFRequestIDBase.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFConsumerBase"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@chainlink\\contracts\\src\\v0.8\\interfaces\\LinkTokenInterface.sol": {
+      "lastModificationDate": 1654197479347,
+      "contentHash": "6d810dc28dac1e67147711dd3b35aae2",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@chainlink\\contracts\\src\\v0.8\\VRFRequestIDBase.sol": {
+      "lastModificationDate": 1654197451687,
+      "contentHash": "cd3cfe02e0dcd3100ba2fef4ee94bb9e",
+      "sourceName": "@chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFRequestIDBase"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\weak-randomness\\LotteryAttacker.sol": {
+      "lastModificationDate": 1655305378686,
+      "contentHash": "844e711a9cebbc1c599c96285ca80d08",
+      "sourceName": "contracts/weak-randomness/LotteryAttacker.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "ILottery",
+        "LotteryAttacker"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\weak-randomness\\Lottery.sol": {
+      "lastModificationDate": 1654194010828,
+      "contentHash": "a71f8805e83bdd3c984d354216ada69e",
+      "sourceName": "contracts/weak-randomness/Lottery.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "Lottery"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1654197435331,
+      "contentHash": "c5f6c4e4df069c789e7d84b4c3011913",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\replay-attack\\MultiSigWalletV2.sol": {
+      "lastModificationDate": 1654194010609,
+      "contentHash": "33f20f53b14127e6dab37685246e1c2e",
+      "sourceName": "contracts/replay-attack/MultiSigWalletV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "MultiSigWalletV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\replay-attack\\MultiSigWallet.sol": {
+      "lastModificationDate": 1655809453736,
+      "contentHash": "7425b36406b423755b420f24cbe6a594",
+      "sourceName": "contracts/replay-attack/MultiSigWallet.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "MultiSigWallet"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\reentrancy\\SavingsAccountV2.sol": {
+      "lastModificationDate": 1654693903198,
+      "contentHash": "edc8a09f72b9d72df1358ec824a80b4c",
+      "sourceName": "contracts/reentrancy/SavingsAccountV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol",
+        "hardhat/console.sol",
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "SavingsAccountV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1654197488410,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1654197450644,
+      "contentHash": "53fbff678f378956efcb207fa748eaa6",
+      "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\denial of service\\AuctionV2.sol": {
+      "lastModificationDate": 1654713136725,
+      "contentHash": "3921ecd97954d310b5872574c4e6859b",
+      "sourceName": "contracts/denial of service/AuctionV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "AuctionV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\denial of service\\Auction.sol": {
+      "lastModificationDate": 1654194010428,
+      "contentHash": "d5ccb0a8dc7b7a6d5c05fb7f2ba4f295",
+      "sourceName": "contracts/denial of service/Auction.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "Auction"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\reentrancy\\InvestorV2.sol": {
+      "lastModificationDate": 1654626984495,
+      "contentHash": "9844913db9062c8a362e1c06c703f837",
+      "sourceName": "contracts/reentrancy/InvestorV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "ISavingsAccountV2",
+        "InvestorV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\Greeter.sol": {
+      "lastModificationDate": 1654162002765,
+      "contentHash": "54c28c84e5277b35b8c8329ce9755dae",
+      "sourceName": "contracts/Greeter.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\realHacks\\KotET.sol": {
+      "lastModificationDate": 1654194010552,
+      "contentHash": "dbe5100270f49140c760bb8f24a261a9",
+      "sourceName": "contracts/realHacks/KotET.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "KotET"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\final-project-solution\\EtbDexV2.sol": {
+      "lastModificationDate": 1654194010460,
+      "contentHash": "c98fdfc19c5ab442ccf010b6c8cc5976",
+      "sourceName": "contracts/final-project-solution/EtbDexV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EtbTokenV2.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "EtbDexV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\final-project-solution\\EtbTokenV2.sol": {
+      "lastModificationDate": 1654194010473,
+      "contentHash": "264d7b52f4d31ea9604de0e117d5d2a3",
+      "sourceName": "contracts/final-project-solution/EtbTokenV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "EtbTokenV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\unencrypted data\\Vault.sol": {
+      "lastModificationDate": 1654198904861,
+      "contentHash": "f5a22329bad18610fbdae429ea67ba74",
+      "sourceName": "contracts/unencrypted data/Vault.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "Vault"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\tx.origin\\Attacker.sol": {
+      "lastModificationDate": 1654698901888,
+      "contentHash": "408054e2db81a8d3598a5cbb995fda10",
+      "sourceName": "contracts/tx.origin/Attacker.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "Attacker",
+        "ISmallWallet"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\tx.origin\\SmallWallet.sol": {
+      "lastModificationDate": 1654700643869,
+      "contentHash": "8808eadc3af05a943dccd593881f2eef",
+      "sourceName": "contracts/tx.origin/SmallWallet.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "SmallWallet"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\upgradeability\\Callee.sol": {
+      "lastModificationDate": 1654194010669,
+      "contentHash": "005be3d59e96d5ab469d459d80d16a76",
+      "sourceName": "contracts/upgradeability/Callee.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Callee"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\upgradeability\\Caller.sol": {
+      "lastModificationDate": 1654194010682,
+      "contentHash": "c8071a7046d43eb43c858963e71077cd",
+      "sourceName": "contracts/upgradeability/Caller.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Caller"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\upgradeability\\LogicV1.sol": {
+      "lastModificationDate": 1654952144682,
+      "contentHash": "533cd00d7df8d8c66d9d96356daf25ce",
+      "sourceName": "contracts/upgradeability/LogicV1.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "LogicV1"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\upgradeability\\LogicV2.sol": {
+      "lastModificationDate": 1655136751676,
+      "contentHash": "74842799c90e8cde7a6ad562c01e0d23",
+      "sourceName": "contracts/upgradeability/LogicV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "LogicV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\upgradeability\\Proxy.sol": {
+      "lastModificationDate": 1654194010809,
+      "contentHash": "2aff92639686af7f65004829ce7e0e79",
+      "sourceName": "contracts/upgradeability/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\interactions\\SavingsAccount.sol": {
+      "lastModificationDate": 1654368600235,
+      "contentHash": "09b409c3037a085aceb8bfd2de286b93",
+      "sourceName": "contracts/interactions/SavingsAccount.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "SavingsAccount"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\interactions\\Investor.sol": {
+      "lastModificationDate": 1654368821404,
+      "contentHash": "eec11b3c8f22372bc5674fc91a1f1914",
+      "sourceName": "contracts/interactions/Investor.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "ISavingsAccount",
+        "Investor"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@chainlink\\contracts\\src\\v0.8\\interfaces\\VRFCoordinatorV2Interface.sol": {
+      "lastModificationDate": 1654197479397,
+      "contentHash": "8db4cdbb6a6133de4877ef91f0e0443a",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFCoordinatorV2Interface"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\node_modules\\@chainlink\\contracts\\src\\v0.8\\VRFConsumerBaseV2.sol": {
+      "lastModificationDate": 1655749485770,
+      "contentHash": "dc6ef5e190b083446060a101016db065",
+      "sourceName": "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "VRFConsumerBaseV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\weak-randomness\\LotteryV2_VRF1.sol": {
+      "lastModificationDate": 1655385956033,
+      "contentHash": "e6da55012eb5727e9ca8fac6f83221a9",
+      "sourceName": "contracts/weak-randomness/LotteryV2_VRF1.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "LoteryV2"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\final-project\\EtbDexV1.sol": {
+      "lastModificationDate": 1656965580395,
+      "contentHash": "d58c323972d4d66e3d4da4ec8ce11075",
+      "sourceName": "contracts/final-project/EtbDexV1.sol",
+      "solcConfig": {
+        "version": "0.6.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EtbTokenV1.sol"
+      ],
+      "versionPragmas": [
+        "0.6.0"
+      ],
+      "artifacts": [
+        "EtbDexV1"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\final-project\\EtbTokenV1.sol": {
+      "lastModificationDate": 1656965501798,
+      "contentHash": "d44b2d44b1997f22bc60840e9e8b67ed",
+      "sourceName": "contracts/final-project/EtbTokenV1.sol",
+      "solcConfig": {
+        "version": "0.6.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.0"
+      ],
+      "artifacts": [
+        "ETBTokenV1"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\final-project\\EtbDexFin.sol": {
+      "lastModificationDate": 1656965720192,
+      "contentHash": "6c3bf38d26b2bb3ca124bc21dd7d4dad",
+      "sourceName": "contracts/final-project/EtbDexFin.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EtbTokenFin.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "EtbDexFin"
+      ]
+    },
+    "C:\\Users\\Seva\\security101\\contracts\\final-project\\EtbTokenFin.sol": {
+      "lastModificationDate": 1657310114338,
+      "contentHash": "27a48fdf01979b9328eb98360c0167a2",
+      "sourceName": "contracts/final-project/EtbTokenFin.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.9"
+      ],
+      "artifacts": [
+        "ETBTokenFin"
+      ]
+    }
+  }
+}
